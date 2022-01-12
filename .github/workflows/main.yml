@@ -7,3 +7,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+  - name: Checkout
+  uses: actions/checkout@v2.4.0
+
